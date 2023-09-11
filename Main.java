@@ -32,35 +32,35 @@ public class Main {
         }
     }
 }
-class Bus
-{
-    private int busNo ;
-    private boolean AC;
-    private int capacity;
-    Bus(int busNo,boolean ac , int capacity)
-    {
-        this.busNo = busNo;
-        this.AC = ac;
-        this.capacity = capacity;
-    }
-    public int getbusNo()
-    {
-        return busNo;
-    }
-    public int getCapacity()
-    {
-        return capacity;
-    }
-    public void setCapacity(int cp)
-    {
-        capacity = cp ;
-    }
-    public void displayDetails()
-    {
-        System.out.println("Busno is :"+busNo + " ac or non-ac : "+AC +" capacity is " +capacity);
-    }
+// class Bus
+// {
+//     private int busNo ;
+//     private boolean AC;
+//     private int capacity;
+//     Bus(int busNo,boolean ac , int capacity)
+//     {
+//         this.busNo = busNo;
+//         this.AC = ac;
+//         this.capacity = capacity;
+//     }
+//     public int getbusNo()
+//     {
+//         return busNo;
+//     }
+//     public int getCapacity()
+//     {
+//         return capacity;
+//     }
+//     public void setCapacity(int cp)
+//     {
+//         capacity = cp ;
+//     }
+//     public void displayDetails()
+//     {
+//         System.out.println("Busno is :"+busNo + " ac or non-ac : "+AC +" capacity is " +capacity);
+//     }
 
-}
+// }
 class Booking
 {
     String passengerName;
